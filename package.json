@@ -1,0 +1,26 @@
+{
+	"name": "node_apis",
+	"version": "1.0.0",
+	"description": "",
+	"main": "server.js",
+	"engines": {
+		"node": "8.1.1",
+		"npm": "5.0.3"
+	},
+	"scripts": {
+		"start": "node server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/maheshdeploy/Node_APIs.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/maheshdeploy/Node_APIs/issues"
+	},
+	"homepage": "https://github.com/maheshdeploy/Node_APIs#readme",
+	"dependencies": {
+		"express": "^4.17.1"
+	}
+}
