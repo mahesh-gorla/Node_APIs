@@ -2,8 +2,6 @@ const express = require('express');
 const app = express();
 const cors = require('cors');
 
-app.use(cors);
-
 app.get('/', (req, res) => {
 	res.send([
 		{
@@ -238,6 +236,8 @@ app.get('/', (req, res) => {
 		}
 	]);
 });
+
+app.use(cors);
 
 const port = process.env.PORT || 5000;
 app.listen(port, () => {
