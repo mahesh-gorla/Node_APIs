@@ -2,9 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-	res.send({
-		Hi: 'Hey buddy'
-	});
+	res.send('https://jsonplaceholder.typicode.com/users');
 });
 
 const port = process.env.PORT || 5000;
